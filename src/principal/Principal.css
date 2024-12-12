@@ -1,0 +1,154 @@
+.pg-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.pg-header-principal{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.pg-menu-principal{
+    width: 40%;
+    height: 80%;
+    padding: 200px;
+    background-color: #004aad;
+    border-radius:50% 0 50% 50%;
+    display: flex;
+    opacity: .7;
+}
+
+.pg-enlaces{
+    display: flex;
+    list-style: none;
+    color: white;
+}
+
+.pg-enlaces li{
+    padding: 5px 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: font-weight .3 ease;
+}
+.pg-enlaces li:hover{
+    font-weight: bold;
+}
+.pg-header-logo{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 400px ;
+}
+.pg-header-logo>h1{
+    color: #004aad;
+    transform: UpperCase;
+    font-size: 64px;
+    margin: 0;
+    padding: 0 400px;
+    
+}
+.pg-header-logo>h2{
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    color: #004aad;
+    margin-left: 400px;
+    font-size: 36px;
+    z-index: 10;
+}
+.pg-header-logo>img{
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    background-size: cover;
+    border: 10px solid #004aad;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+/*section 1*/
+
+.pg-section{
+    width: 100%;
+    margin-top: 20px;
+}
+.pg-section>img{
+    width: 100%;
+}
+.pg-body section{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pg-section h2{
+    text-align:center;
+    font-size: 24px ;
+    color: #004aad;
+}
+.pg-section p{
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    opacity: .9;
+    
+}
+.pg-section-actividades{
+    width: 100%;
+    height: 400px;
+    margin: 30px;
+    
+}
+.pg-actividad-list{
+    display: flex;
+    border-top: 3px solid #004aad;
+    padding: 20px;
+}
+.pg-actividad-elementos{
+    display: flex;
+}
+.pg-actividad-point{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #004aad;
+    margin-right: 20px;
+}
+.pg-section-actividades ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.pg-footer{
+    width: 100%;
+    background-color: #004aad;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.pg-footer-divisiones{
+    width: 60%;
+    display: flex;
+    margin: 10px 20px ;
+}
+.pg-footer-sub{
+    width: 20%;
+    margin: 0 20px;
+}
+.pg-footer-sub h4{
+    padding-left: 20px;
+}
+.pg-footer-sub li{
+    margin: 10px 0;
+}

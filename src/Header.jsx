@@ -9,7 +9,7 @@ export default function Registro(){
             <section className="pg-container-header"> 
                 <header className="pg-header">
                     <div className="pg-header-pagina">
-                        <p className="logo-header">Paper</p>
+                        <p className="logo-header">AZLO FACIL</p>
                         <input className="pg-header-input" type="text" placeholder="Que te interesa"/>
                     </div>
                     <div className="pg-header-usuario">
